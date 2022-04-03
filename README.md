@@ -52,4 +52,4 @@ docker build -f Volvo.TollCalculator.API\Dockerfile -t tollcalculatorapi .
 
 docker run -p 5000:80 -t tollcalculatorapi
 ```
-Then import the postman collection file ```tollcalculation.postman_collection.json``` and execute the APIs.
+Then import the postman collection file ```tollcalculation.postman_collection.json``` [here](Code-Refactor/API-Implementation/tollcalculation.postman_collection.json) and execute the APIs.
