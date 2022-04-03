@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32228.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Volvo.TollCalculator.API", "Volvo.TollCalculator.API\Volvo.TollCalculator.API.csproj", "{E9AEBE95-8EDC-4EF0-8817-1BBD0F465913}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{3289DAB8-3FC8-460F-AF20-591CAE200970}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{74F283F7-C27E-4C54-8D44-DA52DA090FD3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Volvo.TollCalculator.Application", "Volvo.TollCalculator.Application\Volvo.TollCalculator.Application.csproj", "{0F406D64-EBF8-4335-98C7-D5B47B08911A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Volvo.TollCalculator.Core", "Volvo.TollCalculator.Core\Volvo.TollCalculator.Core.csproj", "{B3FEAB32-3289-48A0-A54D-37A54D986C7C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{00DFD3B1-11FA-41FB-88FE-70E717AB8366}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Volvo.TollCalculation.Application.UnitTest", "Volvo.TollCalculation.Application.UnitTest\Volvo.TollCalculation.Application.UnitTest.csproj", "{E8BDD8A8-D787-4AC7-B3E6-AB58F51EFB65}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E9AEBE95-8EDC-4EF0-8817-1BBD0F465913}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9AEBE95-8EDC-4EF0-8817-1BBD0F465913}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9AEBE95-8EDC-4EF0-8817-1BBD0F465913}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9AEBE95-8EDC-4EF0-8817-1BBD0F465913}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F406D64-EBF8-4335-98C7-D5B47B08911A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F406D64-EBF8-4335-98C7-D5B47B08911A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F406D64-EBF8-4335-98C7-D5B47B08911A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F406D64-EBF8-4335-98C7-D5B47B08911A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3FEAB32-3289-48A0-A54D-37A54D986C7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3FEAB32-3289-48A0-A54D-37A54D986C7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3FEAB32-3289-48A0-A54D-37A54D986C7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3FEAB32-3289-48A0-A54D-37A54D986C7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8BDD8A8-D787-4AC7-B3E6-AB58F51EFB65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8BDD8A8-D787-4AC7-B3E6-AB58F51EFB65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8BDD8A8-D787-4AC7-B3E6-AB58F51EFB65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8BDD8A8-D787-4AC7-B3E6-AB58F51EFB65}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E9AEBE95-8EDC-4EF0-8817-1BBD0F465913} = {3289DAB8-3FC8-460F-AF20-591CAE200970}
+		{0F406D64-EBF8-4335-98C7-D5B47B08911A} = {74F283F7-C27E-4C54-8D44-DA52DA090FD3}
+		{B3FEAB32-3289-48A0-A54D-37A54D986C7C} = {74F283F7-C27E-4C54-8D44-DA52DA090FD3}
+		{E8BDD8A8-D787-4AC7-B3E6-AB58F51EFB65} = {00DFD3B1-11FA-41FB-88FE-70E717AB8366}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {46D51E8B-078C-4B66-BDE9-D14919FB619D}
+	EndGlobalSection
+EndGlobal

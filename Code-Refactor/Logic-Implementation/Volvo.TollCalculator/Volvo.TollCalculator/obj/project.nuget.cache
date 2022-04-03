@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "vsDwqQJVrMmvIiYLhG0F4NNNTavdqFQV53kNI6EJhR6f7UxCMksVQKaXRhMa3tMm6yil8st5Ask6FjArYtaXgA==",
+  "success": true,
+  "projectFilePath": "D:\\Projects\\Explipro-Volvo\\Refactor\\Logic-Implementation\\Volvo.TollCalculator\\Volvo.TollCalculator\\Volvo.TollCalculator.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Sajitha\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.11.1\\microsoft.visualstudio.azure.containers.tools.targets.1.11.1.nupkg.sha512"
+  ],
+  "logs": []
+}

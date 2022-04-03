@@ -1,0 +1,16 @@
+D:\Projects\Explipro-Volvo\Refactor\Logic-Implementation\Volvo.TollCalculator\Volvo.TollCalculator\bin\Debug\net5.0\Volvo.TollCalculator.exe
+D:\Projects\Explipro-Volvo\Refactor\Logic-Implementation\Volvo.TollCalculator\Volvo.TollCalculator\bin\Debug\net5.0\Volvo.TollCalculator.deps.json
+D:\Projects\Explipro-Volvo\Refactor\Logic-Implementation\Volvo.TollCalculator\Volvo.TollCalculator\bin\Debug\net5.0\Volvo.TollCalculator.runtimeconfig.json
+D:\Projects\Explipro-Volvo\Refactor\Logic-Implementation\Volvo.TollCalculator\Volvo.TollCalculator\bin\Debug\net5.0\Volvo.TollCalculator.runtimeconfig.dev.json
+D:\Projects\Explipro-Volvo\Refactor\Logic-Implementation\Volvo.TollCalculator\Volvo.TollCalculator\bin\Debug\net5.0\Volvo.TollCalculator.dll
+D:\Projects\Explipro-Volvo\Refactor\Logic-Implementation\Volvo.TollCalculator\Volvo.TollCalculator\bin\Debug\net5.0\ref\Volvo.TollCalculator.dll
+D:\Projects\Explipro-Volvo\Refactor\Logic-Implementation\Volvo.TollCalculator\Volvo.TollCalculator\bin\Debug\net5.0\Volvo.TollCalculator.pdb
+D:\Projects\Explipro-Volvo\Refactor\Logic-Implementation\Volvo.TollCalculator\Volvo.TollCalculator\obj\Debug\net5.0\Volvo.TollCalculator.csproj.AssemblyReference.cache
+D:\Projects\Explipro-Volvo\Refactor\Logic-Implementation\Volvo.TollCalculator\Volvo.TollCalculator\obj\Debug\net5.0\Volvo.TollCalculator.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Explipro-Volvo\Refactor\Logic-Implementation\Volvo.TollCalculator\Volvo.TollCalculator\obj\Debug\net5.0\Volvo.TollCalculator.AssemblyInfoInputs.cache
+D:\Projects\Explipro-Volvo\Refactor\Logic-Implementation\Volvo.TollCalculator\Volvo.TollCalculator\obj\Debug\net5.0\Volvo.TollCalculator.AssemblyInfo.cs
+D:\Projects\Explipro-Volvo\Refactor\Logic-Implementation\Volvo.TollCalculator\Volvo.TollCalculator\obj\Debug\net5.0\Volvo.TollCalculator.csproj.CoreCompileInputs.cache
+D:\Projects\Explipro-Volvo\Refactor\Logic-Implementation\Volvo.TollCalculator\Volvo.TollCalculator\obj\Debug\net5.0\Volvo.TollCalculator.dll
+D:\Projects\Explipro-Volvo\Refactor\Logic-Implementation\Volvo.TollCalculator\Volvo.TollCalculator\obj\Debug\net5.0\ref\Volvo.TollCalculator.dll
+D:\Projects\Explipro-Volvo\Refactor\Logic-Implementation\Volvo.TollCalculator\Volvo.TollCalculator\obj\Debug\net5.0\Volvo.TollCalculator.pdb
+D:\Projects\Explipro-Volvo\Refactor\Logic-Implementation\Volvo.TollCalculator\Volvo.TollCalculator\obj\Debug\net5.0\Volvo.TollCalculator.genruntimeconfig.cache

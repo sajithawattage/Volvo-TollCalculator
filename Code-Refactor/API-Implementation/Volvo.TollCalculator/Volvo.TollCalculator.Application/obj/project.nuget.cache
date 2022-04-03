@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "Sy9AmYSuQc9xSLDQeccPbnt6U8PwLv3G0l0J5Jx+vBE/OndcFY4vo5xEVOTvE5gjwrKCjZ1YN8Aw3Be1eBzxzg==",
+  "success": true,
+  "projectFilePath": "D:\\Projects\\Explipro-Volvo\\Refactor\\API-Implementation\\Volvo.TollCalculator\\Volvo.TollCalculator.Application\\Volvo.TollCalculator.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Sajitha\\.nuget\\packages\\mediatr\\10.0.1\\mediatr.10.0.1.nupkg.sha512",
+    "C:\\Users\\Sajitha\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
+    "C:\\Users\\Sajitha\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\10.0.1\\mediatr.extensions.microsoft.dependencyinjection.10.0.1.nupkg.sha512",
+    "C:\\Users\\Sajitha\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Sajitha\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Sajitha\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\Sajitha\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,15 @@
+D:\Projects\Explipro-Volvo\Refactor\API-Implementation\Volvo.TollCalculator\Volvo.TollCalculator.Application\bin\Debug\net5.0\Volvo.TollCalculator.Application.deps.json
+D:\Projects\Explipro-Volvo\Refactor\API-Implementation\Volvo.TollCalculator\Volvo.TollCalculator.Application\bin\Debug\net5.0\Volvo.TollCalculator.Application.dll
+D:\Projects\Explipro-Volvo\Refactor\API-Implementation\Volvo.TollCalculator\Volvo.TollCalculator.Application\bin\Debug\net5.0\ref\Volvo.TollCalculator.Application.dll
+D:\Projects\Explipro-Volvo\Refactor\API-Implementation\Volvo.TollCalculator\Volvo.TollCalculator.Application\bin\Debug\net5.0\Volvo.TollCalculator.Application.pdb
+D:\Projects\Explipro-Volvo\Refactor\API-Implementation\Volvo.TollCalculator\Volvo.TollCalculator.Application\obj\Debug\net5.0\Volvo.TollCalculator.Application.csproj.AssemblyReference.cache
+D:\Projects\Explipro-Volvo\Refactor\API-Implementation\Volvo.TollCalculator\Volvo.TollCalculator.Application\obj\Debug\net5.0\Volvo.TollCalculator.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Explipro-Volvo\Refactor\API-Implementation\Volvo.TollCalculator\Volvo.TollCalculator.Application\obj\Debug\net5.0\Volvo.TollCalculator.Application.AssemblyInfoInputs.cache
+D:\Projects\Explipro-Volvo\Refactor\API-Implementation\Volvo.TollCalculator\Volvo.TollCalculator.Application\obj\Debug\net5.0\Volvo.TollCalculator.Application.AssemblyInfo.cs
+D:\Projects\Explipro-Volvo\Refactor\API-Implementation\Volvo.TollCalculator\Volvo.TollCalculator.Application\obj\Debug\net5.0\Volvo.TollCalculator.Application.csproj.CoreCompileInputs.cache
+D:\Projects\Explipro-Volvo\Refactor\API-Implementation\Volvo.TollCalculator\Volvo.TollCalculator.Application\obj\Debug\net5.0\Volvo.TollCalculator.Application.dll
+D:\Projects\Explipro-Volvo\Refactor\API-Implementation\Volvo.TollCalculator\Volvo.TollCalculator.Application\obj\Debug\net5.0\ref\Volvo.TollCalculator.Application.dll
+D:\Projects\Explipro-Volvo\Refactor\API-Implementation\Volvo.TollCalculator\Volvo.TollCalculator.Application\obj\Debug\net5.0\Volvo.TollCalculator.Application.pdb
+D:\Projects\Explipro-Volvo\Refactor\API-Implementation\Volvo.TollCalculator\Volvo.TollCalculator.Application\bin\Debug\net5.0\Volvo.TollCalculator.Core.dll
+D:\Projects\Explipro-Volvo\Refactor\API-Implementation\Volvo.TollCalculator\Volvo.TollCalculator.Application\bin\Debug\net5.0\Volvo.TollCalculator.Core.pdb
+D:\Projects\Explipro-Volvo\Refactor\API-Implementation\Volvo.TollCalculator\Volvo.TollCalculator.Application\obj\Debug\net5.0\Volvo.TollCalculator.Application.csproj.CopyComplete
