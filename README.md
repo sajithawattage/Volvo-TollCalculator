@@ -15,4 +15,4 @@ Below changes are added to the base code to make sure all the requirements are c
 3. Create extension methods for common functions.
 4. Add unit tests for testability.
 
-There are two implementations in this coding assignment. Fixed logical errors and optimize the coding in **Logic Implementation** which can be find [here](Code-Refactor/Logic-Implementation/Volvo.TollCalculator) and micro service implementation in **API Implementation** which can be find [here](Code-Refactor/API-Implementation/Volvo.TollCalculator).
+There are two implementations in this coding assignment. Fixed logical errors and optimize the coding in **Logic Implementation** which can be find [here](Code-Refactor/Logic-Implementation) and micro service implementation in **API Implementation** which can be find [here](Code-Refactor/API-Implementation).
