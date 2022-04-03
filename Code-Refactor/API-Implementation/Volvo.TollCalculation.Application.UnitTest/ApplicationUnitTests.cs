@@ -246,8 +246,8 @@ namespace Volvo.TollCalculation.Application.UnitTest
         [Fact]
         public async Task ShouldReturnZeroOnWeekendsAsync()
         {
-            var saturday = new DateTime(2020, 9, 5, 15, 0, 0);
-            var sunday = new DateTime(2020, 9, 6, 15, 0, 0);
+            var saturday = new DateTime(2021, 9, 5, 15, 0, 0);
+            var sunday = new DateTime(2021, 9, 6, 15, 0, 0);
             var dates = new DateTime[] { saturday, sunday };
 
             TollCalculationByDateRangeCommand command = new TollCalculationByDateRangeCommand()
@@ -263,8 +263,8 @@ namespace Volvo.TollCalculation.Application.UnitTest
         [Fact]
         public async Task ShouldReturnZeroOnHolidaysAsync()
         {
-            var christmasEve = new DateTime(2013, 12, 24);
-            var christmasDay = new DateTime(2013, 12, 25);
+            var christmasEve = new DateTime(2021, 12, 24);
+            var christmasDay = new DateTime(2021, 12, 25);
             var dates = new DateTime[] { christmasEve, christmasDay };
 
             TollCalculationByDateRangeCommand command = new TollCalculationByDateRangeCommand()
@@ -281,8 +281,8 @@ namespace Volvo.TollCalculation.Application.UnitTest
         public async Task ShouldReturnZeroOffFeeHoursAsync()
         {
             var dates = new DateTime[] {
-                new DateTime(2020, 9, 1, 5, 30,0 ),
-                new DateTime(2020, 9, 1, 19, 0, 0)
+                new DateTime(2021, 9, 1, 5, 30,0 ),
+                new DateTime(2021, 9, 1, 19, 0, 0)
             };
 
             TollCalculationByDateRangeCommand command = new TollCalculationByDateRangeCommand()
@@ -300,8 +300,8 @@ namespace Volvo.TollCalculation.Application.UnitTest
         {
             var expectedTotalFee = 2 * HighToll;
             var dates = new DateTime[] {
-                new DateTime(2020, 9, 1, 7, 30,0 ),
-                new DateTime(2020, 9, 1, 16, 0, 0)
+                new DateTime(2021, 9, 1, 7, 30,0 ),
+                new DateTime(2021, 9, 1, 16, 0, 0)
             };
 
             TollCalculationByDateRangeCommand command = new TollCalculationByDateRangeCommand()
@@ -319,10 +319,10 @@ namespace Volvo.TollCalculation.Application.UnitTest
         {
             var expectedTotalFee = 4 * MidToll;
             var dates = new DateTime[] {
-                new DateTime(2020, 9, 1, 6, 40,0 ),
-                new DateTime(2020, 9, 1, 8, 15, 0),
-                new DateTime(2020, 9, 1, 15, 15, 0),
-                new DateTime(2020, 9, 1, 17, 30, 0)};
+                new DateTime(2021, 9, 1, 6, 40,0 ),
+                new DateTime(2021, 9, 1, 8, 15, 0),
+                new DateTime(2021, 9, 1, 15, 15, 0),
+                new DateTime(2021, 9, 1, 17, 30, 0)};
 
             TollCalculationByDateRangeCommand command = new TollCalculationByDateRangeCommand()
             {
@@ -339,8 +339,8 @@ namespace Volvo.TollCalculation.Application.UnitTest
         {
             var expectedTotalFee = 2 * LowToll;
             var dates = new DateTime[] {
-                new DateTime(2020, 9, 1, 6, 15, 0),
-                new DateTime(2020, 9, 1, 18, 15, 0)
+                new DateTime(2021, 9, 1, 6, 15, 0),
+                new DateTime(2021, 9, 1, 18, 15, 0)
             };
 
             TollCalculationByDateRangeCommand command = new TollCalculationByDateRangeCommand()
@@ -358,11 +358,11 @@ namespace Volvo.TollCalculation.Application.UnitTest
         {
             var expectedTotalFee = HighToll + HighToll + LowToll;
             var dates = new DateTime[] {
-                new DateTime(2020, 9, 1, 6, 45, 0),  //13
-                new DateTime(2020, 9, 1, 7, 15, 0),   //18
-                new DateTime(2020, 9, 1, 16, 59, 0),  //18
-                new DateTime(2020, 9, 1, 17, 0, 0),   //13
-                new DateTime(2020, 9, 1, 18, 29, 0)   //8
+                new DateTime(2021, 9, 1, 6, 45, 0),  //13
+                new DateTime(2021, 9, 1, 7, 15, 0),   //18
+                new DateTime(2021, 9, 1, 16, 59, 0),  //18
+                new DateTime(2021, 9, 1, 17, 0, 0),   //13
+                new DateTime(2021, 9, 1, 18, 29, 0)   //8
             };
 
             TollCalculationByDateRangeCommand command = new TollCalculationByDateRangeCommand()
@@ -380,11 +380,11 @@ namespace Volvo.TollCalculation.Application.UnitTest
         {
             var expectedTotalFee = HighToll + HighToll + LowToll;
             var dates = new DateTime[] {
-                new DateTime(2020, 9, 1, 17, 0, 0),
-                new DateTime(2020, 9, 1, 7, 15, 0),
-                new DateTime(2020, 9, 1, 6, 45, 0 ),
-                new DateTime(2020, 9, 1, 18, 29, 0),
-                new DateTime(2020, 9, 1, 16, 59, 0)
+                new DateTime(2021, 9, 1, 17, 0, 0),
+                new DateTime(2021, 9, 1, 7, 15, 0),
+                new DateTime(2021, 9, 1, 6, 45, 0 ),
+                new DateTime(2021, 9, 1, 18, 29, 0),
+                new DateTime(2021, 9, 1, 16, 59, 0)
             };
 
             TollCalculationByDateRangeCommand command = new TollCalculationByDateRangeCommand()
@@ -403,12 +403,12 @@ namespace Volvo.TollCalculation.Application.UnitTest
             var maximumTollFee = 60;
 
             var dates = new DateTime[] {
-                new DateTime(2020, 9, 1, 6, 0, 0 ),
-                new DateTime(2020, 9, 1, 7, 15, 0),
-                new DateTime(2020, 9, 1, 8, 29, 0),
-                new DateTime(2020, 9, 1, 15, 0, 0),
-                new DateTime(2020, 9, 1, 16, 30, 0),
-                new DateTime(2020, 9, 1, 18, 15, 0)
+                new DateTime(2021, 9, 1, 6, 0, 0 ),
+                new DateTime(2021, 9, 1, 7, 15, 0),
+                new DateTime(2021, 9, 1, 8, 29, 0),
+                new DateTime(2021, 9, 1, 15, 0, 0),
+                new DateTime(2021, 9, 1, 16, 30, 0),
+                new DateTime(2021, 9, 1, 18, 15, 0)
             };
 
             TollCalculationByDateRangeCommand command = new TollCalculationByDateRangeCommand()

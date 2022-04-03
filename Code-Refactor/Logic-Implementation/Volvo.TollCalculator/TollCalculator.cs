@@ -58,7 +58,7 @@ namespace Volvo.TollCalculator
         }
 
         /// <summary>
-        /// Get Toll fee by 
+        /// Get Toll fee by Date
         /// </summary>
         /// <param name="date"></param>
         /// <param name="vehicle"></param>

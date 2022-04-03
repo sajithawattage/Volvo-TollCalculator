@@ -185,8 +185,8 @@ namespace Volvo.TollCalculator.Test
         [Fact]
         public void ShouldReturnZeroOnWeekendsAsync()
         {
-            var saturday = new DateTime(2020, 9, 5, 15, 0, 0);
-            var sunday = new DateTime(2020, 9, 6, 15, 0, 0);
+            var saturday = new DateTime(2021, 9, 5, 15, 0, 0);
+            var sunday = new DateTime(2021, 9, 6, 15, 0, 0);
             var dates = new DateTime[] { saturday, sunday };
 
             var tollFee = calculator.GetTollFeeByDate(new Car(), dates);
@@ -196,8 +196,8 @@ namespace Volvo.TollCalculator.Test
         [Fact]
         public void ShouldReturnZeroOnHolidaysAsync()
         {
-            var christmasEve = new DateTime(2013, 12, 24);
-            var christmasDay = new DateTime(2013, 12, 25);
+            var christmasEve = new DateTime(2021, 12, 24);
+            var christmasDay = new DateTime(2021, 12, 25);
             var dates = new DateTime[] { christmasEve, christmasDay };
 
             var tollFee = calculator.GetTollFeeByDate(new Car(), dates);
@@ -208,8 +208,8 @@ namespace Volvo.TollCalculator.Test
         public void ShouldReturnZeroOffFeeHoursAsync()
         {
             var dates = new DateTime[] {
-                new DateTime(2020, 9, 1, 5, 30,0 ),
-                new DateTime(2020, 9, 1, 19, 0, 0)
+                new DateTime(2021, 9, 1, 5, 30,0 ),
+                new DateTime(2021, 9, 1, 19, 0, 0)
             };
 
             var tollFee = calculator.GetTollFeeByDate(new Car(), dates);
@@ -221,8 +221,8 @@ namespace Volvo.TollCalculator.Test
         {
             var expectedTotalFee = 2 * MaximumToll;
             var dates = new DateTime[] {
-                new DateTime(2020, 9, 1, 7, 30,0 ),
-                new DateTime(2020, 9, 1, 16, 0, 0)
+                new DateTime(2021, 9, 1, 7, 30,0 ),
+                new DateTime(2021, 9, 1, 16, 0, 0)
             };
 
             var tollFee = calculator.GetTollFeeByDate(new Car(), dates);
@@ -234,10 +234,10 @@ namespace Volvo.TollCalculator.Test
         {
             var expectedTotalFee = 4 * AverageToll;
             var dates = new DateTime[] {
-                new DateTime(2020, 9, 1, 6, 40,0 ),
-                new DateTime(2020, 9, 1, 8, 15, 0),
-                new DateTime(2020, 9, 1, 15, 15, 0),
-                new DateTime(2020, 9, 1, 17, 30, 0)};
+                new DateTime(2021, 9, 1, 6, 40,0 ),
+                new DateTime(2021, 9, 1, 8, 15, 0),
+                new DateTime(2021, 9, 1, 15, 15, 0),
+                new DateTime(2021, 9, 1, 17, 30, 0)};
 
             var tollFee = calculator.GetTollFeeByDate(new Car(), dates);
             Assert.Equal(expectedTotalFee, tollFee);
@@ -248,8 +248,8 @@ namespace Volvo.TollCalculator.Test
         {
             var expectedTotalFee = 2 * MinimumToll;
             var dates = new DateTime[] {
-                new DateTime(2020, 9, 1, 6, 15, 0),
-                new DateTime(2020, 9, 1, 18, 15, 0)
+                new DateTime(2021, 9, 1, 6, 15, 0),
+                new DateTime(2021, 9, 1, 18, 15, 0)
             };
 
             var tollFee = calculator.GetTollFeeByDate(new Car(), dates);
@@ -261,11 +261,11 @@ namespace Volvo.TollCalculator.Test
         {
             var expectedTotalFee = MaximumToll + MaximumToll + MinimumToll;
             var dates = new DateTime[] {
-                new DateTime(2020, 9, 1, 6, 45, 0),  //13
-                new DateTime(2020, 9, 1, 7, 15, 0),   //18
-                new DateTime(2020, 9, 1, 16, 59, 0),  //18
-                new DateTime(2020, 9, 1, 17, 0, 0),   //13
-                new DateTime(2020, 9, 1, 18, 29, 0)   //8
+                new DateTime(2021, 9, 1, 6, 45, 0),  //13
+                new DateTime(2021, 9, 1, 7, 15, 0),   //18
+                new DateTime(2021, 9, 1, 16, 59, 0),  //18
+                new DateTime(2021, 9, 1, 17, 0, 0),   //13
+                new DateTime(2021, 9, 1, 18, 29, 0)   //8
             };
 
             var tollFee = calculator.GetTollFeeByDate(new Car(), dates);
@@ -277,11 +277,11 @@ namespace Volvo.TollCalculator.Test
         {
             var expectedTotalFee = MaximumToll + MaximumToll + MinimumToll;
             var dates = new DateTime[] {
-                new DateTime(2020, 9, 1, 17, 0, 0),
-                new DateTime(2020, 9, 1, 7, 15, 0),
-                new DateTime(2020, 9, 1, 6, 45, 0 ),
-                new DateTime(2020, 9, 1, 18, 29, 0),
-                new DateTime(2020, 9, 1, 16, 59, 0)
+                new DateTime(2021, 9, 1, 17, 0, 0),
+                new DateTime(2021, 9, 1, 7, 15, 0),
+                new DateTime(2021, 9, 1, 6, 45, 0 ),
+                new DateTime(2021, 9, 1, 18, 29, 0),
+                new DateTime(2021, 9, 1, 16, 59, 0)
             };
 
             var tollFee = calculator.GetTollFeeByDate(new Car(), dates);
@@ -294,12 +294,12 @@ namespace Volvo.TollCalculator.Test
             var maximumTollFee = 60;
 
             var dates = new DateTime[] {
-                new DateTime(2020, 9, 1, 6, 0, 0 ),
-                new DateTime(2020, 9, 1, 7, 15, 0),
-                new DateTime(2020, 9, 1, 8, 29, 0),
-                new DateTime(2020, 9, 1, 15, 0, 0),
-                new DateTime(2020, 9, 1, 16, 30, 0),
-                new DateTime(2020, 9, 1, 18, 15, 0)
+                new DateTime(2021, 9, 1, 6, 0, 0 ),
+                new DateTime(2021, 9, 1, 7, 15, 0),
+                new DateTime(2021, 9, 1, 8, 29, 0),
+                new DateTime(2021, 9, 1, 15, 0, 0),
+                new DateTime(2021, 9, 1, 16, 30, 0),
+                new DateTime(2021, 9, 1, 18, 15, 0)
             };
 
             var tollFee = calculator.GetTollFeeByDate(new Car(), dates);

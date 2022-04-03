@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Volvo.TollCalculator.Models
+﻿namespace Volvo.TollCalculator.Models
 {
-    public class Diplomat: Vehicle
+    public class Diplomat : Vehicle
     {
         public override bool VehicleTollFree
         {
