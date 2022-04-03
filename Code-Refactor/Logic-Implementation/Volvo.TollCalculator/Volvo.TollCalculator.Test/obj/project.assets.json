@@ -5973,11 +5973,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\Explipro-Volvo\\Refactor\\Logic-Implementation\\Volvo.TollCalculator\\Volvo.TollCalculator.Test\\Volvo.TollCalculator.Test.csproj",
+      "projectUniqueName": "D:\\Projects\\Explipro-Volvo\\Code-Refactor\\Logic-Implementation\\Volvo.TollCalculator\\Volvo.TollCalculator.Test\\Volvo.TollCalculator.Test.csproj",
       "projectName": "Volvo.TollCalculator.Test",
-      "projectPath": "D:\\Projects\\Explipro-Volvo\\Refactor\\Logic-Implementation\\Volvo.TollCalculator\\Volvo.TollCalculator.Test\\Volvo.TollCalculator.Test.csproj",
+      "projectPath": "D:\\Projects\\Explipro-Volvo\\Code-Refactor\\Logic-Implementation\\Volvo.TollCalculator\\Volvo.TollCalculator.Test\\Volvo.TollCalculator.Test.csproj",
       "packagesPath": "C:\\Users\\Sajitha\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\Explipro-Volvo\\Refactor\\Logic-Implementation\\Volvo.TollCalculator\\Volvo.TollCalculator.Test\\obj\\",
+      "outputPath": "D:\\Projects\\Explipro-Volvo\\Code-Refactor\\Logic-Implementation\\Volvo.TollCalculator\\Volvo.TollCalculator.Test\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5998,8 +5998,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\Projects\\Explipro-Volvo\\Refactor\\Logic-Implementation\\Volvo.TollCalculator\\Volvo.TollCalculator\\Volvo.TollCalculator.csproj": {
-              "projectPath": "D:\\Projects\\Explipro-Volvo\\Refactor\\Logic-Implementation\\Volvo.TollCalculator\\Volvo.TollCalculator\\Volvo.TollCalculator.csproj"
+            "D:\\Projects\\Explipro-Volvo\\Code-Refactor\\Logic-Implementation\\Volvo.TollCalculator\\Volvo.TollCalculator\\Volvo.TollCalculator.csproj": {
+              "projectPath": "D:\\Projects\\Explipro-Volvo\\Code-Refactor\\Logic-Implementation\\Volvo.TollCalculator\\Volvo.TollCalculator\\Volvo.TollCalculator.csproj"
             }
           }
         }

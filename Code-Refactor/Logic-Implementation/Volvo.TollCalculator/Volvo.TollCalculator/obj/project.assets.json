@@ -104,11 +104,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\Explipro-Volvo\\Refactor\\Logic-Implementation\\Volvo.TollCalculator\\Volvo.TollCalculator\\Volvo.TollCalculator.csproj",
+      "projectUniqueName": "D:\\Projects\\Explipro-Volvo\\Code-Refactor\\Logic-Implementation\\Volvo.TollCalculator\\Volvo.TollCalculator\\Volvo.TollCalculator.csproj",
       "projectName": "Volvo.TollCalculator",
-      "projectPath": "D:\\Projects\\Explipro-Volvo\\Refactor\\Logic-Implementation\\Volvo.TollCalculator\\Volvo.TollCalculator\\Volvo.TollCalculator.csproj",
+      "projectPath": "D:\\Projects\\Explipro-Volvo\\Code-Refactor\\Logic-Implementation\\Volvo.TollCalculator\\Volvo.TollCalculator\\Volvo.TollCalculator.csproj",
       "packagesPath": "C:\\Users\\Sajitha\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\Explipro-Volvo\\Refactor\\Logic-Implementation\\Volvo.TollCalculator\\Volvo.TollCalculator\\obj\\",
+      "outputPath": "D:\\Projects\\Explipro-Volvo\\Code-Refactor\\Logic-Implementation\\Volvo.TollCalculator\\Volvo.TollCalculator\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
